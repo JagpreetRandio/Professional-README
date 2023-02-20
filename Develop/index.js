@@ -53,19 +53,97 @@ const questions = [
                if (installationInput) {
                    return true;
                } else {
-                   console.log('You need to enter installation information!');
+                   console.log('Please enter installation information!');
                    return false;
                }
             }  
            },
+           {
+            type: 'input',
+            name: 'usage',
+            message: 'Provide instructions and examples for usage! (Required)',
+            validate : usageInput => {
+               if (usageInput) {
+                   return true;
+               } else {
+                   console.log('Please enter usage information!');
+                   return false;
+               }
+            }  
+           },
+           {
+            type: "input",
+            name: "contribution",
+            message: "Please enter contribution details: (Required)",
+            validate: contributionInput => {
+                if (contributionInput) {
+                    return true;
+                } else {
+                    console.log("Please enter contribution details!");
+                }
+            }
+        },
+        {
+            type: "input",
+            name: "test",
+            message: "Please enter Test Instructions: (Required)",
+            validate: testInstructionsInput => {
+                if (testInstructionsInput) {
+                    return true;
+                } else {
+                    console.log("Please enter test instructions!");
+                }
+            }
+        },
+        {
+            type: "list",
+            name: "license",
+            message: "Please select from the list of licenses: (Required)",
+            choices: ['MIT', 'General Public License 2.0', 'General Public License 3.0', 'Mozilla Public License 2.0', 'BSD 3-Clause License', 'Apache License 2.0'],
+            validate: licenseSelection => {
+                if (licenseSelection) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'emailAddress',
+            message: 'Enter your email address. (Required)',
+            validate : emailAddressInput => {
+               if (emailAddressInput) {
+                   return true;
+               } else {
+                   console.log('Please enter your email address!');
+                   return false;
+               }
+            }  
+           }
+    
+
 
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile('README.md', data, function(err) {
+        if(err)
+        {
+            return console.log(err);
+        }
+        console.log("Done!");
+    })
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions)
+    .then (data => {
+        writeToFile("README.md", generateMarkdown({...data}));  
+    })
+}
 
 // Function call to initialize app
 init();
