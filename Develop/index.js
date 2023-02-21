@@ -48,7 +48,7 @@ const questions = [
         {
             type: 'input',
             name: 'installation',
-            message: 'What are the steps required to install your project? Please provide a step-by-step description of how to get application running. (Required)',
+            message: 'What are the steps required to install your project? (Required)',
             validate : installationInput => {
                if (installationInput) {
                    return true;

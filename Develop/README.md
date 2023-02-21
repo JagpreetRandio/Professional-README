@@ -1,9 +1,9 @@
-## Test README
+## TEST README
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description 
-  test description for readme application
+   This is a test readme
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -16,7 +16,7 @@
   1. test 2. test 3. test
 
   ## Usage 
-  here are all the instructions
+  here are all the instructions for usage
 
   ## License 
   This project is covered under the MIT license.
@@ -25,7 +25,7 @@
   Jagpreet Randio
 
   ## Tests
-  here are the test instructions
+  here are all the test instructions
 
   ## Questions
   If you have any questions about this projects, please contact me directly at jagpreet@test.com. You can view more of my projects at https://github.com/JagpreetRandio.
