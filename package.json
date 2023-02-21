@@ -1,5 +1,23 @@
 {
+  "name": "professional-readme",
+  "version": "1.0.0",
+  "description": "This project is a README.md file generator ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JagpreetRandio/Professional-README.git"
+  },
+  "author": "Jagpreet Randio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JagpreetRandio/Professional-README/issues"
+  },
+  "homepage": "https://github.com/JagpreetRandio/Professional-README#readme",
   "dependencies": {
-    "inquirer": "^8.2.4"
+    "inquirer": "^9.1.4"
   }
 }
