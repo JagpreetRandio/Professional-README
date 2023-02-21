@@ -15,6 +15,7 @@ The professional README application allows the user to quickly create a professi
  
 ## Video
 
+https://user-images.githubusercontent.com/115323708/220237216-097b6d0f-ee92-412b-beb7-b0075632cd55.mp4
 
 ## Installation
 
