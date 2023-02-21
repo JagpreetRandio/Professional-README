@@ -3,7 +3,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description 
-  testing for project
+  description for test readme
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -13,20 +13,19 @@
   * [Questions](#questions)
   
   ## Installation 
-  1. test 2. test. 3. test 
+  1. test 2. test 3. test
 
   ## Usage 
-  put all instructions here for usage
+  all instructions for usage will be here
 
   ## License 
-  ## License
   This project is covered under the MIT license.
 
   ## Contributing 
-  Jagpreet Test
+  Jagpreet Randio
 
   ## Tests
-  all test instructions here
+  all test instructions will be here
 
   ## Questions
   If you have any questions about this projects, please contact me directly at jagpreet@test.com. You can view more of my projects at https://github.com/JagpreetRandio.

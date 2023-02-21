@@ -63,7 +63,7 @@ function renderLicenseSection(license) {
     return '';
   } else if (license) {
     for (i = 0; i < 1; i++) {
-    return `## License`
+    return 
 
 }
   }
@@ -92,7 +92,6 @@ const generateMarkdown = data => {
   ${data.usage}
 
   ## License 
-  ${renderLicenseSection(data.license)}
   This project is covered under the ${data.license} license.
 
   ## Contributing 
